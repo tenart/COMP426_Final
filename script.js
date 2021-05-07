@@ -149,7 +149,7 @@ function startGame () {
 
 //projectiles
     const bullet1 = new Image();
-    bullet1.src = 'Sprites/Projectiles/Projectile3.png';
+    bullet1.src = 'Sprites/Projectiles/projectile3.png';
     const bullet2 = new Image();
     bullet2.src = 'Sprites/Projectiles/projectile1.png';
     const bullet3 = new Image();
@@ -197,7 +197,7 @@ function startGame () {
             ctx.beginPath();
             ctx.drawImage(
                 this.projectile, this.frameX * this.spriteWidth + 10, this.frameY * this.spriteHeight + 10,
-                this.spriteWidth + 10, this.spriteHeight + 10, this.x, this.y, this.width, this.height);
+                this.spriteWidth + 10, this.spriteHeight + 10, this.x, this.y, this.width, this.height );
         }
     }
     function handleProjectiles() {
